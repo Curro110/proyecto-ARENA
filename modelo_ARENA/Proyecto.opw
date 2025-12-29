@@ -1,0 +1,26 @@
+[RESOURCES]
+Operario Paquetes
+Impresora
+Maquina Escaneo y Pesaje
+Maquina Embalaje
+[VARIABLES]
+v_contador_paquetes
+Camion.NumberOut
+Llegada Etiquetas.NumberOut
+Embalaje.NumberOut
+Batch 1.NumberOut
+Batch 2.NumberOut
+Embalaje.NumberIn
+Preparacion Paquetes.NumberIn
+Escaneo y Pesaje.NumberIn
+Escaneo y Pesaje.NumberOut
+v_contador_etiquetas
+¿Destino Cercano?.NumberOut False
+¿Paquete grande?.NumberOut True
+Preparacion Paquetes.NumberOut
+¿Paquete grande?.NumberOut False
+Llegada paquetes.NumberOut
+Furgoneta de Reparto.NumberOut
+¿Destino Cercano?.NumberOut True
+Preparacion etiquetas.NumberIn
+Preparacion etiquetas.NumberOut

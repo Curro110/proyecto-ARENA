@@ -1,0 +1,121 @@
+
+----------------------------------------------------------------------
+17179:AACCES
+Entity: 3
+A runtime error was detected at time 0.098257189 at the following block:
+
+ *   56 306$            ACCESS:Conveyor paquete,2;
+
+Number of cells accessed (2) is insufficient for load size.
+The load size of 3.0 requires at least 3 cells of a conveyor
+with a cell length of 1 .
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+0.098257189 Hours>
+                                      ARENA Simulation Results
+                            currodelgado110@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/29/2025
+Analyst: alejandrorocheaniento@gmail.com                             Model revision date:12/29/2025
+
+Replication ended at time      : 0.098257189 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Paquete etiquetado.VATime                       --         --         --         --          0
+Paquete etiquetado.NVATime                      --         --         --         --          0
+Paquete etiquetado.WaitTime                     --         --         --         --          0
+Paquete etiquetado.TranTime                     --         --         --         --          0
+Paquete etiquetado.OtherTime                    --         --         --         --          0
+Paquete etiquetado.TotalTime                    --         --         --         --          0
+Paquete.VATime                                  --         --         --         --          0
+Paquete.NVATime                                 --         --         --         --          0
+Paquete.WaitTime                                --         --         --         --          0
+Paquete.TranTime                                --         --         --         --          0
+Paquete.OtherTime                               --         --         --         --          0
+Paquete.TotalTime                               --         --         --         --          0
+Etiquetas.VATime                                --         --         --         --          0
+Etiquetas.NVATime                               --         --         --         --          0
+Etiquetas.WaitTime                              --         --         --         --          0
+Etiquetas.TranTime                              --         --         --         --          0
+Etiquetas.OtherTime                             --         --         --         --          0
+Etiquetas.TotalTime                             --         --         --         --          0
+Cola_etiquetas.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          1    
+Batch 2.Queue.WaitingTime                       --         --         --         --          0
+Escaneo y Pesaje.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          1    
+Batch 1.Queue.WaitingTime                       --         --         --         --          0
+Escaneo.Queue.WaitingTime                       --         --         --         --          0
+Cola_Salida_Embalaje.Queue.WaitingTime          --         --         --         --          0
+Preparacion Paquetes.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000          1    
+Preparacion etiquetas.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000          1    
+Embalaje.Queue.WaitingTime                      --         --         --         --          0
+Match 1.Queue1.WaitingTime                      --         --         --         --          0
+Match 1.Queue2.WaitingTime                      --         --         --         --          0
+Access 1.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Paquete etiquetado.WIP                      .00000     (Insuf)    .00000     .00000     .00000    
+Paquete.WIP                                 .29542     (Insuf)    .00000     1.0000     1.0000    
+Etiquetas.WIP                               .09376     (Insuf)    .00000     1.0000     1.0000    
+Operario Paquetes.NumberBusy                .02859     (Insuf)    .00000     1.0000     .00000    
+Operario Paquetes.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operario Paquetes.Utilization               .02859     (Insuf)    .00000     1.0000     .00000    
+Impresora.NumberBusy                        .02566     (Insuf)    .00000     1.0000     .00000    
+Impresora.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Impresora.Utilization                       .02566     (Insuf)    .00000     1.0000     .00000    
+Maquina Escaneo y Pesaje.NumberBusy         .18202     (Insuf)    .00000     1.0000     .00000    
+Maquina Escaneo y Pesaje.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Maquina Escaneo y Pesaje.Utilization        .18202     (Insuf)    .00000     1.0000     .00000    
+Maquina Embalaje.NumberBusy                 .00000     (Insuf)    .00000     .00000     .00000    
+Maquina Embalaje.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Maquina Embalaje.Utilization                .00000     (Insuf)    .00000     .00000     .00000    
+Cola_etiquetas.Queue.NumberInQueue          .00000     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Escaneo y Pesaje.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Escaneo.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Cola_Salida_Embalaje.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Preparacion Paquetes.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Preparacion etiquetas.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Embalaje.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Match 1.Queue1.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Match 1.Queue2.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Access 1.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Paquete etiquetado.NumberIn                 .00000    
+Paquete etiquetado.NumberOut                .00000    
+Paquete.NumberIn                            1.0000    
+Paquete.NumberOut                           .00000    
+Etiquetas.NumberIn                          1.0000    
+Etiquetas.NumberOut                         .00000    
+Operario Paquetes.NumberSeized              1.0000    
+Operario Paquetes.ScheduledUtilization      .02859    
+Impresora.NumberSeized                      1.0000    
+Impresora.ScheduledUtilization              .02566    
+Maquina Escaneo y Pesaje.NumberSeized       1.0000    
+Maquina Escaneo y Pesaje.ScheduledUtilizat  .18202    
+Maquina Embalaje.NumberSeized               .00000    
+Maquina Embalaje.ScheduledUtilization       .00000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 1.57 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).
